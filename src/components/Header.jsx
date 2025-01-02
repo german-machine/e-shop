@@ -28,7 +28,7 @@ function Header() {
                     <span className="nav__itemLineTwo">Sign In</span>
                 </Link>
 
-                <div className="nav__item">
+                <div className="nav__item shop">
                     <span className="nav__itemLineOne">Your Shop</span>
                     <span className="nav__itemLineTwo">Shop</span>
                 </div>
