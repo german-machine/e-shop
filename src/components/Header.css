@@ -80,3 +80,28 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+@media only screen and (max-width: 370px){
+    .nav__itemLineOne {
+        font-size: 7px;
+    }
+    
+    .nav__itemLineTwo {
+        font-size: 10px;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .header{
+        justify-content:space-between;
+    }
+
+    .header__search {
+        display: none;
+    }
+
+    .nav__item.shop{
+        display:none;
+    } 
+}
