@@ -20,3 +20,15 @@
     display: flex;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 768px){
+    .checkout{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .checkout__ad{
+        max-height: 400px;
+    }
+}
